@@ -35,33 +35,37 @@ processes = []
 [experimental]
   allowed_public_ports = []
   auto_rollback = true
+
 [[services]]
   http_checks = []
-  internal_port = 443
-  # processes = ["app"]
+  internal_port = 80
+  processes = ["app"]
   protocol = "tcp"
   script_checks = []
-  [services.concurrency]
-    hard_limit = 50
-    soft_limit = 35
-    type = "connections"
-  [[services.ports]]
-    handlers = ["http"]
-    port = 80
-  [[services.ports]]
-    handlers = ["tls", "http"]
-    port = 443
-  [[services.tcp_checks]]
-    grace_period = "120s"
-    interval = "15s"
-    restart_limit = 0
-    timeout = "2s"
-[[services]]
-  internal_port = 35601
-  protocol = "tcp"
+
   [services.concurrency]
     hard_limit = 25
     soft_limit = 20
+    type = "connections"
+    
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    port = 443
+
+  [[services.tcp_checks]]
+    grace_period = "1s"
+    interval = "15s"
+    restart_limit = 6
+    timeout = "2s"
+    
+[[services]]
+  internal_port = 35601
+  protocol = "tcp"
+
+  [services.concurrency]
+    hard_limit = 25
+    soft_limit = 20
+
   [[services.ports]]
     handlers = []
     port = "5000"
