@@ -15,5 +15,6 @@ jobs:
       - name: Deploy
         run: |
           curl -L https://fly.io/install.sh | FLYCTL_INSTALL=/usr/local sh
+          flyctl auth login -t FLY_API_TOKEN
           flyctl deploy --detach
 
