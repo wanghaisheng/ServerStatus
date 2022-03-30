@@ -1,0 +1,239 @@
+{"servers":
+ [
+  {
+   "username": "1",
+   "password": "yxl981204@",
+   "name": "Scaleway",
+   "type": "KVM",
+   "host": "NL",
+   "location": "Amsterdam",
+   "disabled": false
+  },
+  {
+   "username": "2",
+   "password": "yxl981204@",
+   "name": "Scaleway",
+   "type": "KVM",
+   "host": "FR",
+   "location": "Paris",
+   "disabled": false
+  },
+  {
+   "username": "3",
+   "password": "yxl981204@",
+   "name": "Midc",
+   "type": "KVM",
+   "host": "DE",
+   "location": "Frankfurt",
+   "disabled": false
+  },
+  {
+   "username": "26",
+   "password": "yxl981204@",
+   "name": "Google",
+   "type": "KVM",
+   "host": "US",
+   "location": "Iowa",
+   "disabled": false
+  },
+  {
+   "username": "4",
+   "password": "yxl981204@",
+   "name": "Oracle",
+   "type": "KVM",
+   "host": "KR",
+   "location": "Seoul",
+   "disabled": false
+  },
+  {
+   "username": "5",
+   "password": "yxl981204@",
+   "name": "Oracle",
+   "type": "KVM",
+   "host": "KR",
+   "location": "Seoul",
+   "disabled": false
+  },
+  {
+   "username": "6",
+   "password": "yxl981204@",
+   "name": "Oracle(arm)",
+   "type": "KVM",
+   "host": "KR",
+   "location": "Seoul",
+   "disabled": false
+  },
+  {
+   "username": "7",
+   "password": "yxl981204@",
+   "name": "Euserv",
+   "type": "LXC",
+   "host": "DE",
+   "location": "Thuringia",
+   "disabled": false
+  },
+  {
+   "username": "8",
+   "password": "yxl981204@",
+   "name": "Euserv",
+   "type": "LXC",
+   "host": "DE",
+   "location": "Thuringia",
+   "disabled": false
+  },
+  {
+   "username": "9",
+   "password": "yxl981204@",
+   "name": "Ruvds",
+   "type": "KVM",
+   "host": "RU",
+   "location": "Moscow",
+   "disabled": false
+  },
+  {
+   "username": "10",
+   "password": "yxl981204@",
+   "name": "Gullo",
+   "type": "Openvz",
+   "host": "DE",
+   "location": "Frankfurt",
+   "disabled": false
+  },
+  {
+   "username": "11",
+   "password": "yxl981204@",
+   "name": "Gullo",
+   "type": "Openvz",
+   "host": "FL",
+   "location": "Uusimaa",
+   "disabled": false
+  },
+  {
+   "username": "12",
+   "password": "yxl981204@",
+   "name": "Azure",
+   "type": "KVM",
+   "host": "SG",
+   "location": "Singapore",
+   "disabled": false
+  },
+  {
+   "username": "13",
+   "password": "yxl981204@",
+   "name": "Azure",
+   "type": "KVM",
+   "host": "HK",
+   "location": "HongKong(China)",
+   "disabled": false
+  },
+  {
+   "username": "14",
+   "password": "yxl981204@",
+   "name": "Virmach",
+   "type": "KVM",
+   "host": "US",
+   "location": "Chicago",
+   "disabled": false
+  },
+  {
+   "username": "15",
+   "password": "yxl981204@",
+   "name": "Boomer",
+   "type": "Openvz",
+   "host": "US",
+   "location": "New Jersey",
+   "disabled": false
+  },
+  {
+   "username": "16",
+   "password": "yxl981204@",
+   "name": "Tencent",
+   "type": "KVM",
+   "host": "HK",
+   "location": "HongKong(China)",
+   "disabled": false
+  },
+  {
+   "username": "17",
+   "password": "yxl981204@",
+   "name": "Tencent",
+   "type": "KVM",
+   "host": "CN",
+   "location": "ChengDu",
+   "disabled": false
+  },
+  {
+   "username": "18",
+   "password": "yxl981204@",
+   "name": "Aliyun",
+   "type": "KVM",
+   "host": "CN",
+   "location": "ShangHai",
+   "disabled": false
+  },
+  {
+   "username": "19",
+   "password": "yxl981204@",
+   "name": "Aliyun",
+   "type": "KVM",
+   "host": "CN",
+   "location": "ShangHai",
+   "disabled": false
+  },
+  {
+   "username": "20",
+   "password": "yxl981204@",
+   "name": "Tencent",
+   "type": "KVM",
+   "host": "CN",
+   "location": "NanJing",
+   "disabled": false
+  },
+  {
+   "username": "21",
+   "password": "yxl981204@",
+   "name": "DigitalOcean",
+   "type": "KVM",
+   "host": "IN",
+   "location": "Bangalore",
+   "disabled": false
+  },
+  {
+   "username": "22",
+   "password": "yxl981204@",
+   "name": "DigitalOcean",
+   "type": "KVM",
+   "host": "CA",
+   "location": "Toronto",
+   "disabled": false
+  },
+  {
+   "username": "23",
+   "password": "yxl981204@",
+   "name": "DigitalOcean",
+   "type": "KVM",
+   "host": "GB",
+   "location": "London",
+   "disabled": false
+  },
+  {
+   "username": "24",
+   "password": "yxl981204@",
+   "name": "Raksmart",
+   "type": "KVM",
+   "host": "US",
+   "location": "kansas",
+   "disabled": false
+  },
+  {
+   "username": "25",
+   "password": "yxl981204@",
+   "name": "Raksmart",
+   "type": "KVM",
+   "host": "US",
+   "location": "Kansas",
+   "disabled": false
+  }
+  
+ ]
+}

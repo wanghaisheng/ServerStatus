@@ -1,0 +1,9 @@
+{
+"servers": [
+{ "name": "腾讯云-上海", "type": "KVM", "host": "None", "location": "CN", "online4": false, "online6": false },
+{ "name": "阿里云-香港", "type": "KVM", "host": "None", "location": "HK", "online4": false, "online6": false },
+{ "name": "谷歌云-日本", "type": "KVM", "host": "None", "location": "US", "online4": false, "online6": false },
+{ "name": "谷歌云-000", "type": "KVM", "host": "None", "location": "CN", "online4": false, "online6": false }
+],
+"updated": "1633677769"
+}
