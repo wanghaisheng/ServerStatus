@@ -7,6 +7,7 @@ WORKDIR /
 COPY . /
 RUN apt-get update && \
     apt-get -y install wget && \
+    chmod u+x status.sh && \
     /bin/bash -c '/bin/echo -e "1\n\nn\n" | ./status.sh' && \
     cp -rf /web /usr/local/ServerStatus/
 
